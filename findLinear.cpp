@@ -13,8 +13,9 @@ using namespace std;
 //   return 0;
 //}
 int main(){
-  vector<int> myvector; // initilizes an empty vector.
-  int myint;
+  int myvector[]; // initilizes an empty vector.
+  int length;
+  int search;
 
   cout << "Please enter some integers (enter 0 to end):\n";
 
